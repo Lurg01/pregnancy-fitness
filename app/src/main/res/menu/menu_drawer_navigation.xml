@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group0"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_drawer_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+    </group>
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_drawer_user_guide"
+            android:icon="@drawable/ic_baseline_question_mark_24"
+            android:title="User Guide" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_drawer_about_us"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About us" />
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_drawer_logout"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="Logout" />
+
+    </group>
+
+
+   <!-- <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item android:title="More App">
+
+            <menu>
+                <item
+                    android:id="@+id/shareapp"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Share App" />
+
+                <item
+                    android:id="@+id/Policy"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Policy" />
+            </menu>
+
+        </item>
+
+    </group>
+-->
+</menu>

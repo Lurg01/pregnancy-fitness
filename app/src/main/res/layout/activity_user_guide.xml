@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserGuide">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/back_btn"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/white"
+                android:src="@drawable/arrow_back" />
+            
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/instructions"/>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                android:text="General safety tips to consider when exercising during pregnancy, according to the American College of Obstretricians and Gynecologists.
+
+    \n\n* Get clearance from your doctor if \n   you’re new to exercise or you have any \n   health conditions that may \n   contraindicate exercise.
+    \n\n* Drink plenty of water before, during, \n   and after exercise.
+    \n\n* Wear supportive clothing such as \n   supportive sports bra or belly band.
+    \n\n* Don't become overheated, especially \n   during the first trimester.
+    \n\n* Avoid lying flat on your back for too \n   long, especially during the third \n   trimester."/>
+
+
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingEnd="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Follow us on /"
+                    android:gravity="center"
+                    android:layout_marginEnd="25dp"
+                    android:textSize="12sp"/>
+                <WebView
+                    android:id="@+id/web_view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/fb"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/facebook"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
