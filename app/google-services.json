@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "334943247659",
+    "firebase_url": "https://pregnancy-fitness-546f5-default-rtdb.firebaseio.com",
+    "project_id": "pregnancy-fitness-546f5",
+    "storage_bucket": "pregnancy-fitness-546f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334943247659:android:e3fff68781fca9358c396e",
+        "android_client_info": {
+          "package_name": "com.example.pregnancyfitness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334943247659-lgij96484607idifnal3oj0epk82a040.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH2n11ySGlBLddJCqfuFD64XoKN315q3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334943247659-lgij96484607idifnal3oj0epk82a040.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
